@@ -21,6 +21,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .align-left {
@@ -29,4 +30,21 @@ a:hover {
 
 .align-right {
   float: right;
+}
+
+#search-bar {
+  margin-top: 25px;
+  padding: 13px;
+  width: 550px;
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid rgb(228, 224, 224);
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+#search-bar:hover, #search-bar:focus {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(233,225,229,0);
 }
