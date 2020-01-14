@@ -34,12 +34,16 @@ a:hover {
 
 #search-bar {
   margin-top: 25px;
-  padding: 13px;
+  padding: 13px 13px 13px 50px;
   width: 550px;
   background: transparent;
   border-radius: 25px;
   border: 1px solid rgb(228, 224, 224);
   font-size: 16px;
+  background-image: url(./images/magnifying-glass.png);
+  background-position: 15px 10px;
+  background-repeat: no-repeat;
+  background-size: 30px;
 }
 
 #search-bar:hover, #search-bar:focus {
