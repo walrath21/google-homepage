@@ -72,6 +72,10 @@ a:hover {
   cursor: pointer;
 }
 
+.buttons::-moz-focus-inner {
+  border: 0;
+}
+
 #center {
   text-align: center;
 }
