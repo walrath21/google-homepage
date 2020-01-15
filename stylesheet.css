@@ -56,9 +56,9 @@ a:hover {
   border: 1px solid rgb(228, 224, 224);
   font-size: 16px;
   background-image: url(./images/magnifying-glass.png);
-  background-position: 15px 10px;
+  background-position: 17px 16px;
   background-repeat: no-repeat;
-  background-size: 30px;
+  background-size: 17px;
 }
 
 #search-bar:hover, #search-bar:focus {
