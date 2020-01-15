@@ -8,8 +8,8 @@ body {
   left: 0;
   right: 0;
   padding-top: 23px;
-  margin-left: 17px;
-  margin-right: 17px;
+  margin-left: 16px;
+  margin-right: 16px;
   font-size: 13px;
 }
 
@@ -22,9 +22,9 @@ body {
 }
 
 #footer a {
-  font-size: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 12px;
+  padding-left: 20px;
+  margin: 0;
   line-height: 50px;
 }
 
