@@ -13,6 +13,21 @@ body {
   font-size: 13px;
 }
 
+#navbar a, #navbar form {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+#grid {
+  background-image:url(./images/grid.png);
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+  height: 12px;
+  width: 12px;
+  padding-right: 20px;
+}
+
 #footer {
   bottom: 0;
   left: 0;
@@ -89,6 +104,17 @@ a:hover {
 
 .buttons::-moz-focus-inner {
   border: 0;
+}
+
+.sign-in {
+  background-color: #4386f9;
+  border-radius: 1px;
+  border-color: transparent;
+  line-height: 28px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+  color: #fffbfb;
 }
 
 #center {
